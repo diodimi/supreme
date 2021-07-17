@@ -1,4 +1,4 @@
-import {info} from './pessonal-info.js'
+import {info} from './personal-info.js'
 
 var headless_mode = process.argv[2]
 
