@@ -13,7 +13,6 @@ puppeteer.use(StealthPlugin())
 puppeteer.use(AdblockerPlugin({ blockTrackers: true }))
 
 const category_url=info.category_url
-console.log(category_url)
 const fullName=info.fullName
 const email=info.email
 const tel=info.tel
