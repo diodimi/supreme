@@ -2,12 +2,9 @@ import {info} from './personal-info.js'
 
 var headless_mode = process.argv[2]
 
-const readline = require('readline');
 const puppeteer = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
-const cron = require("node-cron");
 const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker');
-const { count } = require('console');
 
 puppeteer.use(StealthPlugin())
 puppeteer.use(AdblockerPlugin({ blockTrackers: true }))
